@@ -11,7 +11,7 @@
 
     <h1>Celebrity Dating Website</h1>
     <p></p>
-    <div class="container">
+    <form class="container">
       <div class="radio">
         <h4>Pets?</h4>
         <label>
@@ -22,40 +22,40 @@
       <div class="radio">
         <label>
           <input type="radio" name="flavor" value="vanilla">
-          Reptiles
+          Cats
         </label>
       </div>
       <div class="radio">
         <label>
           <input type="radio" name="flavor" value="cookiesandcream">
-          Cats
+          Reptiles
         </label>
       </div>
-    </div>
+    </form>
 
-    <div class="container">
+    <form class="container">
       <div class="radio">
         <h4>Religion?</h4>
         <label>
-          <input type="radio" name="flavor" value="chocolate" checked>
-          Christian
+          <input id="scientology" type="radio" name="flavor" value="chocolate" checked>
+          Scientology
         </label>
       </div>
       <div class="radio">
         <label>
-          <input type="radio" name="flavor" value="vanilla">
+          <input id="buddhist" type="radio" name="flavor" value="vanilla">
           Buddhist
         </label>
       </div>
       <div class="radio">
         <label>
-          <input type="radio" name="flavor" value="cookiesandcream">
-          Scientology
+          <input id="christian" type="radio" name="flavor" value="cookiesandcream">
+          Christian
         </label>
       </div>
-    </div>
+    </form>
 
-    <div class="container">
+    <form class="container">
       <div class="radio">
         <h4>Where do you like long walks?</h4>
         <label>
@@ -76,6 +76,8 @@
         </label>
       </div>
     </div>
-    <button type="button" name="button">Submit</button>
+    <div class="button-container">
+      <button class="btn btn-info submit-button" type="submit" name="button">Submit</button>
+  </form>
   </body>
 </html>
