@@ -1,52 +1,81 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.3.1-dist.js"></script>
+    <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title>A fantastical adventure</title>
+    <title>Celebrity</title>
   </head>
   <body>
+
+    <h1>Celebrity Dating Website</h1>
+    <p></p>
     <div class="container">
-      <h1>Fill in the blanks to write your story!</h1>
-      <div>
-        <form id="formOne">
-          <div class="form-group">
-            <label for="person1">A name</label>
-            <input id="person1" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="person2">Another name</label>
-            <input id="person2" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="animal">An animal</label>
-            <input id="animal" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="exclamation">An exclamation</label>
-            <input id="exclamation" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="verb">A past tense verb</label>
-            <input id="verb" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="noun">A noun</label>
-            <input id="noun" class="form-control" type="text">
-          </div>
-
-          <button type="submit" class="btn">Show me the story!</button>
-        </form>
+      <div class="radio">
+        <h4>Pets?</h4>
+        <label>
+          <input type="radio" name="flavor" value="chocolate" checked>
+          Dogs
+        </label>
       </div>
-
-      <div id="story">
-        <h1>A fantastical adventure</h1>
-        <p>
-One day, <span class="person1"></span> and <span class="person2"></span> were walking through the woods, when suddenly a giant <span class="animal"></span> appeared. "<span class="exclamation"></span>", <span class="person1"></span> cried. The two of them <span class="verb"></span> as quickly possible, and when they were safe, <span class="person1"></span> and <span class="person2"></span> gave each other a giant <span class="noun"></span>.
-</p>
+      <div class="radio">
+        <label>
+          <input type="radio" name="flavor" value="vanilla">
+          Reptiles
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="flavor" value="cookiesandcream">
+          Cats
+        </label>
       </div>
     </div>
+
+    <div class="container">
+      <div class="radio">
+        <h4>Religion?</h4>
+        <label>
+          <input type="radio" name="flavor" value="chocolate" checked>
+          Christian
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="flavor" value="vanilla">
+          Buddhist
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="flavor" value="cookiesandcream">
+          Scientology
+        </label>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="radio">
+        <h4>Where do you like long walks?</h4>
+        <label>
+          <input type="radio" name="flavor" value="chocolate" checked>
+          Beach
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="flavor" value="vanilla">
+          Mountains
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="flavor" value="cookiesandcream">
+          To the fridge
+        </label>
+      </div>
+    </div>
+    <button type="button" name="button">Submit</button>
   </body>
 </html>
