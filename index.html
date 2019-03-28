@@ -34,28 +34,30 @@
     </form>
 
     <form class="container">
-      <div class="radio">
-        <h4>Religion?</h4>
-        <label>
-          <input id="scientology" type="radio" name="flavor" value="chocolate" checked>
-          Scientology
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input id="buddhist" type="radio" name="flavor" value="vanilla">
-          Buddhist
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input id="christian" type="radio" name="flavor" value="cookiesandcream">
-          Christian
-        </label>
+      <div class="religion">
+        <div class="radio">
+          <h4>Religion?</h4>
+          <label>
+            <input id="scientology" type="radio" name="flavor" value="scientology" checked>
+            Scientology
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input id="buddhist" type="radio" name="flavor" value="buddhist">
+            Buddhist
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input id="christian" type="radio" name="flavor" value="christian">
+            Christian
+          </label>
+        </div>
       </div>
     </form>
 
-    <form class="container">
+    <form class="container" id="the-form">
       <div class="radio">
         <h4>Where do you like long walks?</h4>
         <label>
@@ -78,6 +80,7 @@
     </div>
     <div class="button-container">
       <button class="btn btn-info submit-button" type="submit" name="button">Submit</button>
+    </div>
   </form>
   </body>
 </html>
